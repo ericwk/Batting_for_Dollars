@@ -12,7 +12,7 @@ Presentation slides of the findings from the project can be found in the **Prese
 There are a wide range of measures and statistics available for the baseball-reference web site.  These provide input for additional application of the machine learning process and offer an opportunity for further learning and discovery.
 
 ## Data Description and Code Narrative
-There are several batting performance measures available on the baseball-reference website. These are:
+There are several batting performance measures available on the baseball-reference website. These are:  
 Rk - Rank - Count from top to bottom for selected parameter (only relevant within the web interface)  
 Name - Player Name - * means left hand batter, # means switch hitter  
 Age - Player Age - at midnight of June 30th  
@@ -43,7 +43,7 @@ IBB - Intentional Bases on Balls
 
 The web site provides batting parameters in a table on a web page for each year.  For example, data for the year 2015 can be found on the web page https://www.baseball-reference.com/leagues/MLB/2015-standard-batting.shtml.  Batting data was scraped from the web site for three years, 2015, 2016 and 2017 using the Selenium python library.  Code for this is found in the "get_batting_data" function in the project notebook.  Note that the batting data table is sourced from another web page via a javascript script so the data must be scraped from the page_source within the above page.  Also note that this function supports scraping data for any number of years with years as input parameters so it would support exploring more and/or other years of player batting performance.
 
-Player salary data is provided by the web site in a table on a web page for each year.  For example, data for the year 2018 can be found on the web page https://www.baseball-reference.com/leagues/MLB/2018-value-batting.shtml. The salary data is provided along with data about the team the player played for, the position(s) the player played and various descriptive and performance statistics.  These are:
+Player salary data is provided by the web site in a table on a web page for each year.  For example, data for the year 2018 can be found on the web page https://www.baseball-reference.com/leagues/MLB/2018-value-batting.shtml. The salary data is provided along with data about the team the player played for, the position(s) the player played and various descriptive and performance statistics.  These are:  
 Rk - Rank - Count from top to bottom for selected parameter (only relevant within the web interface)  
 Name - Player Name - * means left hand   batter, # means switch hitter
 Age - Player Age - at midnight of June 30th  
