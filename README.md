@@ -174,4 +174,4 @@ The **"mae" function**:
 
 The first cell in the notebook following the function code runs the "pickle_3yr_data" function to create the initial raw dataframe.
 
-The final cell in the notebook applies the remaining functions to calculate a mean squared error for the model based on the training data and on the test data, and to calculate mean absolute error on the test data.
+The final cell in the notebook applies the remaining functions to clean the data, split it into feature and target dataframes, split these into train and test dataframes, create a linear regression model using the training data, calculate a mean squared error for the model based on the training data and on the test data, and calculate mean absolute error on the test data.
